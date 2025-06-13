@@ -36,13 +36,29 @@ HUGGINGFACEHUB_API_TOKEN=your_token_here
 .
 ├── main.py             # Main assistant logic
 ├── tool.py             # Custom tool functions
+├── requirements.txt    # required packages
 ├── .env                # Contains your Hugging Face API key (not tracked)
 └── README.md           # This file
 ```
 
 ## 🚀 How to Run
+
+Create a virtual environment:
 ```
-python main.py
+python3 -m venv venv
+```
+Activate the virtual environment:
+```
+source venv/bin/activate
+```
+Install the required packages
+```
+pip install -r requirements.txt
+```
+Run the program
+
+```
+python3 main.py
 ```
 Then enter a question like:
 ```
