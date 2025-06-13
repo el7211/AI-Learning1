@@ -26,6 +26,11 @@ Before running, make sure you have Python 3.8+ and install dependencies:
 pip install huggingface_hub python-dotenv
 ```
 
+Also, you should create a .env file with your Hugging Face API token:
+```bash
+HUGGINGFACEHUB_API_TOKEN=your_token_here
+```
+
 ## 📦 Project Structure
 ```
 .
